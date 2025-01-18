@@ -1,0 +1,12 @@
+#navlist{
+    align-items: center;
+    margin-right: 100px;
+    font-size: 20px;
+    position: sticky;
+    /* color: green;
+    text-decoration: none; */
+}
+a{
+    color: green;
+    text-decoration: none;
+}
