@@ -9,7 +9,11 @@ const Hero = () => {
             Foresta
         </span>
        </small>
-            
+       <div className='ml-5 mb-5' id='hero'>
+        <p>
+            <div className='text-warning fw-bold fs-1'>SAVOUR THE</div> <br/> <span>freshness</span>
+        </p>
+       </div>
     </div>
   )
 }

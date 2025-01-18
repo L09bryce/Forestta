@@ -1,21 +1,54 @@
 .home{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    gap: 12px;
     background-color: rgb(5, 46, 5);
     font-weight: 400px;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-left: 400px;
     color: white;
 }
 .home small{
     font-size: 20px;
     margin-left: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 .home small span{
     font-size: 180px;
     font-weight: 60px;
     font-family: "Great Vibes",serif;
+}
+.home p{
+    border: 2px solid green;
+    box-shadow: 0 0 0 5px white;
+    width: 400px;
+    height: 140px;
+    padding-left: 60px;
+    margin-left: 80px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color: white;
+    color: rgb(5, 46, 5);
+}
+.home p span{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: "Great Vibes", serif;
+    font-weight: 100;
+}
+#hero{
+    margin-bottom: 200px;
+    position: relative;
+    transform: rotate(-15deg);
+    animation: move 4s 100000;    
+}
+@keyframes move{
+    0%{top:0px;}
+    50%{top: 30px;}
+    100%{top: 0px;}
 }
