@@ -1,8 +1,10 @@
 import React from 'react'
 import './Hero.css'
 
+
 const Hero = () => {
   return (
+    <>
     <div className='home'>
        <small className='py-3'>
             THE<br/><span>
@@ -15,9 +17,13 @@ const Hero = () => {
         </p>
        </div>
        <div>
-        <i className="ri-arrow-down-line h-75%" id='icon'></i>
+        <i className="ri-arrow-down-line h-75% w-25%" id='icon'></i>
        </div>
     </div>
+    <div className='image'>
+         <img src="foods.jpg" alt=""/>
+       </div>
+  </>     
   )
 }
 

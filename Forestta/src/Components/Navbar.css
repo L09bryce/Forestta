@@ -1,6 +1,9 @@
+body{
+    margin: 0px;
+}
 #navlist{
     align-items: center;
-    margin-right: 100px;
+    margin-right: 150px;
     font-size: 20px;
     position: sticky;
     /* color: green;

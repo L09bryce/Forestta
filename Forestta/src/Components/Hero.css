@@ -1,13 +1,7 @@
 .home{
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    gap: 12px;
     background-color: rgb(5, 46, 5);
-    /* font-weight: 400px; */
+     background-size: cover;
+     height: 100vh;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
@@ -39,8 +33,8 @@
     font-family: "Great Vibes",serif;
 }
 .home p{
-    border: 2px solid white;
-    box-shadow: 0 0 0 5px green;
+    border: 2px solid green;
+    box-shadow: 0 0 0 5px white;
     width: 400px;
     height: 140px;
     padding-left: 60px;
@@ -50,28 +44,45 @@
     border-top-right-radius: 100px;
     background-color: white;
     color: rgb(5, 46, 5);
-    animation: text 5s 2;
+    animation: text 5s 1;
 }
 .home p span{
     padding-left: 40px;
     padding-top: -200px;
     font-size: 60px;
     font-family: "Great Vibes", serif;
-    /* font-weight: 200px; */
+    font-weight: 200px;
     letter-spacing: 6px;
 }
 #hero{
     margin-bottom: 200px;
     position: relative;
-    transform: rotate(-7.5deg);
+    /* transform: rotate(-7.5deg); */
     animation: move 4s 100000;    
-}
+} 
 @keyframes move{
     0%{top:0px;}
     50%{top: 30px;}
     100%{top: 0px;}
 }
-.home i{
-    margin-top: 400px;
-    margin-left: 60px;
-}
+
+ .image{
+    background-color: rgb(5, 46, 5);
+    height: 600px;
+    width: 100%;
+ }
+ .image img{
+    position: relative;
+    margin-left: 80px;
+    width: 1200px;
+    height: 600px;
+    padding: 25px;
+    border-radius: 60px;
+    scale: 1;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+ }
+ @keyframes fade-in{
+    to{scale: 1.4;}
+ }
