@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 const Navbar = () => {
+
+
   return (
     <div>
-        <div className="navbar navbar navbar-expand-md bg-light py-3 fw-semibold fixed-top class">
+        <div className="navbar navbar navbar-expand-md bg-light py-3 fw-semibold">
             <div className="container">
                 <div className="navbar-nav ms-auto" id='navlist'>
                     <a href=""><li className='mx-4'>MENU</li></a>

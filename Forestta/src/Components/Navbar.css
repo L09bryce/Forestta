@@ -1,6 +1,9 @@
 body{
     margin: 0px;
 }
+.navbar{
+    position: sticky;
+}
 #navlist{
     align-items: center;
     margin-right: 150px;
