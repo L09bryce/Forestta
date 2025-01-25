@@ -1,0 +1,29 @@
+.services{
+    height: 600px;
+    background-color: rgb(5, 46, 5);
+    color: white;
+}
+.services p{
+    font-family: "Oswald", serif;
+    font-size: 60px;
+}
+.card{
+    margin-top: 100px;
+    margin-left: 300px;
+    max-width: 800px;
+    height: 400px;
+}
+.card-body p{
+    color: white;
+    font-size: 20px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+    border-radius: 30px;
+}
+.col-6{
+    background-color: green;
+}
+/* .card img{
+    height: 100%;
+} */

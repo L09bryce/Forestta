@@ -3,6 +3,7 @@ import Headroom from 'react-headroom';
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero';
 import About from './Components/About';
+import Services from './Components/Services';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
     </Headroom>
     <Hero />
     <About />
+    <Services />
     </>
   )
 }
