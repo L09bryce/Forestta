@@ -1,29 +1,45 @@
 .services{
-    height: 600px;
+    height: 1800px;
     background-color: rgb(5, 46, 5);
     color: white;
 }
-.services p{
+.offered{
+    position: sticky;
     font-family: "Oswald", serif;
     font-size: 60px;
+    animation: scrolling linear;
+    animation-timeline: scroll(root);
+}
+@keyframes scrolling{
+    to{
+        transform: translate(calc(-50% -0.5rem));
+    }
 }
 .card{
-    margin-top: 100px;
-    margin-left: 300px;
-    max-width: 800px;
-    height: 400px;
-}
-.card-body p{
-    color: white;
-    font-size: 20px;
-    padding-top: 200px;
-    padding-left: 100px;
-    padding-bottom: 120px;
-    border-radius: 30px;
-}
-.col-6{
+    margin: 0;
     background-color: green;
+    margin-top: 100px;
+    margin-left: 250px;
+    max-width: 1000px;
+    height: 450px;
+    border-radius: 30px;
+    border: none;
 }
-/* .card img{
-    height: 100%;
-} */
+
+.card p{
+    color: white;
+    font-family: "Oswald", serif;
+    font-size: 40px;
+    padding-top: 160px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+}
+.card p span{
+    margin-left: 40px;
+    display: flex;
+}
+.card img{
+    height: 450px;
+    width: 500px;
+    margin-left: 80px;
+}

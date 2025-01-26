@@ -39,6 +39,7 @@
     margin-left: 15px;
     border-radius: 40px;
     box-shadow: 0 0 0 green;
+    border: none;
 }
 .about button:hover{
     background-color: rgb(5, 46, 5);

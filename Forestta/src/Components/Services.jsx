@@ -4,27 +4,32 @@ import './Services.css'
 const Services = () => {
   return (
     <div className='services'>
-        <div>
+        <div className='offered'>
             <p>-PREMIUM COFFEE -FRESH PRODUCE -RELISHING FLAVOURS</p>
         </div>
-        {/* <div className="card">
-            <div className="row g-0">
-                <div className="col-md-6">
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    </div>
-                <div className="col-md-6">
-                    <img src="Image1.jpg" alt=""/>
-                </div>                
+        <div className="card1">
+             <div className="card d-flex" style={{backgroundColor: 'green'}}>
+            <div className="row">
+                <div className='col-5 fs-25'><p>FRESH PRODUCE <br/><span>LOCALLY PRODUCED</span></p></div>
+            <div className='col-7'><img src="Item1.jpg" alt="" /></div>
             </div>
-        </div> */}
-        <div className="card">
-            <div className="col-6">
-                <div className="card-body">
-                    <p>I LOVE FOOD</p>
-                </div>
+        </div>
+        </div>
+        <div className="card2">
+            <div className="card d-flex" style={{backgroundColor: 'greenyellow'}}>
+            <div className="row">
+                <div className='col-5 fs-25'><p>CULINARY DELIGHTS <br/><span>FRESH FLAVOURS</span></p></div>
+            <div className='col-7'><img src="Item5.webp" alt="" /></div>
             </div>
+        </div>
+        </div>
+        <div className="card3">
+            <div className="card d-flex" style={{backgroundColor: 'brown'}}>
+            <div className="row">
+                <div className='col-5 fs-25'><p>FINEST COFFEE <br/><span>LOCALLY CRAFTED</span></p></div>
+            <div className='col-7'><img src="Item4.webp" alt="" /></div>
+            </div>
+        </div>
         </div>
     </div>
   )
