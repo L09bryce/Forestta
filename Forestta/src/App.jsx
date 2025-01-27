@@ -13,7 +13,7 @@ const App = () => {
     </Headroom>
     <Hero />
     <About />
-    <Services />
+    <Services /> 
     </>
   )
 }

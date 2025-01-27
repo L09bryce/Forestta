@@ -79,6 +79,7 @@
     margin-left: 80px;
     width: 1200px;
     height: 600px;
+    /* flex-shrink: 4; */
     padding: 25px;
     border-radius: 60px;
     scale: .8;

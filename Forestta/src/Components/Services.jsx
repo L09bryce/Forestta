@@ -1,11 +1,16 @@
 import React from 'react'
+import { motion, useTransform, useScroll } from 'framer-motion'
+import { useRef } from 'react'
 import './Services.css'
 
 const Services = () => {
+    const targetRef = useRef(null);
+    const {scrollXProgress} = useScroll({ target: targetRef});
+    const x = useTransform(scrollXProgress, [0, 1], ['0', '-55'])
   return (
     <div className='services'>
-        <div className='offered'>
-            <p>-PREMIUM COFFEE -FRESH PRODUCE -RELISHING FLAVOURS</p>
+        <div className='offered' ref={targetRef}>
+            <motion.div className='container' style={{x}}><p>-PREMIUM COFFEE -FRESH PRODUCE -RELISHING FLAVOURS</p></motion.div>
         </div>
         <div className="card1">
              <div className="card d-flex" style={{backgroundColor: 'green'}}>

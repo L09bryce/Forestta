@@ -7,14 +7,10 @@
     position: sticky;
     font-family: "Oswald", serif;
     font-size: 60px;
-    animation: scrolling linear;
-    animation-timeline: scroll(root);
+    overflow: hidden;
+    top: 0;
 }
-@keyframes scrolling{
-    to{
-        transform: translate(calc(-50% -0.5rem));
-    }
-}
+
 .card{
     margin: 0;
     background-color: green;
