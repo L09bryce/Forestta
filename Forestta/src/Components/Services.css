@@ -4,22 +4,26 @@
     color: white;
 }
 .offered{
-    position: sticky;
     font-family: "Oswald", serif;
     font-size: 60px;
+    position: relative;
     overflow: hidden;
     top: 0;
+    position: sticky;
+    letter-spacing: 1px;
 }
 
 .card{
     margin: 0;
-    background-color: green;
-    margin-top: 100px;
+    margin-bottom: 30px;
     margin-left: 250px;
     max-width: 1000px;
     height: 450px;
     border-radius: 30px;
     border: none;
+    transform: translate(0%, 50%);
+    position: sticky;
+    top: 0px;
 }
 
 .card p{

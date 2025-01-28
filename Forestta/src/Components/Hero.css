@@ -72,22 +72,23 @@
     height: 600px;
     width: 100%;
     overflow-clip-margin: content-box;
+    /* overflow-x: hidden; */
     /* position: relative; */
  }
  .image img{
     position: relative;
-    margin-left: 80px;
+    margin-left: 150px;
     width: 1200px;
     height: 600px;
     /* flex-shrink: 4; */
     padding: 25px;
     border-radius: 60px;
     scale: .8;
-    animation: fade-in;
+    animation: fade-in forwards;
     animation-timeline: view();
     animation-range-start: cover;
     /* animation-range: 240px 500px; */
  }
  @keyframes fade-in{
-    to{scale: 1.115;}
+    to{scale: 1.2;}
  }
