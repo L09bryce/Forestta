@@ -6,8 +6,7 @@
 .offered{
     font-family: "Oswald", serif;
     font-size: 60px;
-    position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     top: 0;
     position: sticky;
     letter-spacing: 1px;
@@ -24,6 +23,10 @@
     transform: translate(0%, 50%);
     position: sticky;
     top: 0px;
+}
+
+.card::after{
+    position: fixed;
 }
 
 .card p{

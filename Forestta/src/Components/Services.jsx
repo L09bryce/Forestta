@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <div className='services' ref={targetRef}>
         <div className='offered' >
-            <motion.div className='container' style={{x,}}><p>-PREMIUM COFFEE -FRESH PRODUCE -RELISHING COFFEE</p></motion.div>
+            <motion.div className='container' style={{x}}><p>-PREMIUM COFFEE -FRESH PRODUCE -RELISHING</p></motion.div>
         </div>
         <div className="cards mt-5">
              <div className="card d-flex" style={{backgroundColor: 'green'}}>

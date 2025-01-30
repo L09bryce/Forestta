@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Services from './Components/Services';
+import Information from './Components/Information';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
     </Headroom>
     <Hero />
     <About />
-    <Services /> 
+    <Services />
+    <Information /> 
     </>
   )
 }
