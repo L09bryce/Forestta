@@ -8,12 +8,13 @@
     color: white;
     font-size: 60px;
     font-family: "Oswald", serif;
-    padding-top: 500px;
+    padding-top: 300px;
+    padding-right: 200px;
 
 }
 .drinks button{
+    margin-left: 300px;
     margin-top: 60px;
-    margin-left: 550px;
     width: 300px;
     font-family: "Oswald", serif;
     color: white;
@@ -26,11 +27,17 @@
     background-color: white;
     color: rgb(17, 78, 17);
 }
-.drinks img{
-    height: 500px;
+.image1{
+    
     float: right;
-    padding: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
     z-index: -1;
+    
+}
+.image1 img{
+    z-index: -1;
+    height: 300px;
     border-top-left-radius: 140px;
     border-top-right-radius: 140px;
     border-bottom-left-radius: 140px;
@@ -39,14 +46,12 @@
 .image2{
     float: left;
     z-index: -1;
-    height: 300px;
-    border-top-left-radius: 140px;
-    border-top-right-radius: 140px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
     padding-top: 500px;
     padding-left: 60px;
 }
-.image1{
+.image2 img{
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    height: 300px;
     z-index: -1;
 }
