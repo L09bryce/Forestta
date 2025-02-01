@@ -1,15 +1,15 @@
 .imfomarmatipon{
     background-color: rgb(5, 46, 5);
+    height: 1500px;
 }
 .info{
     background-color: white;
-    height: 1000px;
     border-top-right-radius: 60px;
     
 }
-.simple{
+/* .simple{
     height: 800px;
-}
+} */
 .info h2{
     padding-top: 150px;
     font-size:80px;
@@ -24,9 +24,11 @@
     color: rgb(17, 78, 17);
 }
 .fooditems{
-    background-image: linear-gradient(rgba(255, 255, 255, 0)) url(Item6.webp);
-    border-top-left-radius: 2000px 1000px;
-    border-top-right-radius: 2000px 1000px;
+    background-image: url(Item15.jpeg);
+    z-index: -1;
+    opacity: 2;
+    border-top-left-radius: 100% 50%;
+    border-top-right-radius: 100% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -55,4 +57,24 @@
     color: green;
     background-color: rgba(255, 255, 255, 0);
     font-size: 30px;
+}
+.menu{
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 10px;
+    font-family: "Oswald", serif;
+    font-size: 18px;
+}
+.menu button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.menu button:hover{
+    background-color: white;
+    color: green;
 }

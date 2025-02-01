@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './Information.css'
 
-const Information = () => {
-  const [state, setState] = useState()
+const Information = (imageCount) => {
   return (
     <div className='informatipon'>
       <div>
@@ -29,6 +28,9 @@ const Information = () => {
                   <img src="Item13.jpeg" alt="" />
                   <img src="Item14.webp" alt="" />
                 </div>
+                 <div className='menu'>
+          <button>VISIT OUR MENU</button>
+        </div>
         </div>
         </div>
       </div>

@@ -5,8 +5,12 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Services from './Components/Services';
 import Information from './Components/Information';
+import { useState } from 'react';
+import Drinks from './Components/Drinks';
+import Enquiries from './Components/Enquiries';
 
 const App = () => {
+  const [imageCount, setImageCount] = useState(0);
   return (
     <>
     <Headroom>
@@ -15,7 +19,9 @@ const App = () => {
     <Hero />
     <About />
     <Services />
-    <Information /> 
+    <Information/> 
+    <Drinks />
+    <Enquiries />
     </>
   )
 }
