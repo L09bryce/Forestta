@@ -20,10 +20,13 @@ const Enquiries = () => {
         </section>
          <div className='d-flex' id='card3'>
           <div className="cardbody">
-            <p>PLANNING A LARGER GATHERING OR A PRIVATE EVENT?</p>
-            <button>ENQUIRE NOW</button>
-            <img src="Item19.jpg" alt="" />
+            <div>
+            <img src="Item19.jpg" alt="" /></div>
           </div>
+           <div>
+            <p>PLANNING A LARGER GATHERING OR A PRIVATE EVENT?</p>
+            {/* <button>ENQUIRE NOW</button> */}
+            </div>
          </div>
 
     </div>

@@ -4,8 +4,8 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <>
     <div className='home'>
+    <div className='element'>
        <small className='py-3'>
             THE<br/><span>
             Foresta
@@ -23,7 +23,7 @@ const Hero = () => {
     <div className='image'>
          <img src="foods.jpg" alt=""/>
        </div>
-  </>     
+  </div>     
   )
 }
 
