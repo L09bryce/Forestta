@@ -1,0 +1,52 @@
+.footer{
+    background-color: rgb(5, 46, 5);
+    color: white;
+    font-family: "Oswald", serif;
+}
+.logo{
+    width: 900px;
+    height: 250px;
+    border: 1px solid white;
+    padding-top: 80px;
+}
+.logo span{
+    font-size: 10px;
+}
+.logo small{
+    font-size: 12px;
+}
+.hrs{
+    width: 450px;
+    height: 500px;
+    border: 1px solid white;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.hrs h2{
+    margin-bottom: 60px;
+}
+.location{
+    width: 450px;
+    height: 250px;
+    border: 1px solid white;
+    padding-top: 100px;
+}
+.location p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contact{
+    padding-top: 100px;
+    width: 450px;
+    height: 250px;
+    border: 1px solid white;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.footer img{
+    width: 600px;
+    height: 700px;
+    z-index: -1;
+}

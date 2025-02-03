@@ -88,11 +88,22 @@ section{
 }
 #card3 p{
     padding-top: 100px;
-    margin-left: 600px;
     font-size: 40px;
     font-family: "Oswald", serif;
     color: white;
+    margin-left: 40px;
 }
 #card3 button{
-    margin-left: 600px;
+    margin-left: 60px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(5, 46, 5);
+    color: white;
+    width: 180px;
+    font-size: 20px;
+}
+#card3 button:hover {
+        background-color: white;
+        color: rgb(5, 46, 5);
+        border: 1px solid rgb(5, 46, 5);
 }

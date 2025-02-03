@@ -25,7 +25,7 @@ const Enquiries = () => {
           </div>
            <div>
             <p>PLANNING A LARGER GATHERING OR A PRIVATE EVENT?</p>
-            {/* <button>ENQUIRE NOW</button> */}
+            <button>ENQUIRE NOW</button>
             </div>
          </div>
 

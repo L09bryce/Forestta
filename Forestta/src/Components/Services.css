@@ -6,10 +6,13 @@
 .offered{
     font-family: "Oswald", serif;
     font-size: 60px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     top: 0;
     position: sticky;
     letter-spacing: 1px;
+}
+.offered p{
+    display: inline-block;
 }
 
 .card{

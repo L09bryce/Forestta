@@ -8,6 +8,7 @@ import Information from './Components/Information';
 import { useState } from 'react';
 import Drinks from './Components/Drinks';
 import Enquiries from './Components/Enquiries';
+import Footer from './Components/Footer';
 
 const App = () => {
   const [imageCount, setImageCount] = useState(0);
@@ -22,6 +23,7 @@ const App = () => {
     <Information/> 
     <Drinks />
     <Enquiries />
+    <Footer />
     </>
   )
 }
