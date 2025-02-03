@@ -95,3 +95,9 @@
 .image::after{
     overflow: hidden;
 }
+#icon{
+    margin-left: 300px;
+}
+#icon i{
+    height: 60px;
+}

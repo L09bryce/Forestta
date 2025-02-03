@@ -16,8 +16,8 @@ const Hero = () => {
             <div className='text-warning fw-bold fs-1'>SAVOUR THE</div> <span className='fw-100'>freshness</span>
         </p>
        </div>
-       <div>
-        <i className="ri-arrow-down-line h-75% w-25%" id='icon'></i>
+       <div id='icon'>
+        <i className="ri-arrow-down-line" ></i>
        </div>
     </div>
     <div className='image'>
