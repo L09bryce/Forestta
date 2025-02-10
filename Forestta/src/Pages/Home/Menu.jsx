@@ -1,5 +1,4 @@
-import React from 'react'
-import Navbar from '../Pages/Home/Navbar'
+import Navbar from './Navbar'
 
 const Menu = () => {
   return (

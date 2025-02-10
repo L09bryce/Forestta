@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -9,12 +9,12 @@ const Navbar = () => {
         <div className="navbar navbar navbar-expand-md bg-light py-3 fw-semibold">
             <div className="container">
                 <div className="navbar-nav ms-auto" id='navlist'>
-                    <a href=""><li className='mx-4'>MENU</li></a>
-                    <a href=""><li className='mx-4'>BOOKINGS</li></a>
-                    <a href=""><li className='mx-4'>BOOKINGS</li></a>
-                    <a href=""><li className='mx-4'>THE<br/>FORESTA</li></a>
-                    <a href=""><li className='mx-4'>WEEKLY SPECIALS</li></a>
-                    <a href=""><li className='mx-4'>CONTACTS</li></a>
+                    <Link to="Menu"><li className='mx-4'>MENU</li></Link>
+                    <Link to="Bookings"><li className='mx-4'>BOOKINGS</li></Link>
+                    <Link to=""><li className='mx-4'>BOOKINGS</li></Link>
+                    <Link to=""><li className='mx-4'>THE<br/>FORESTA</li></Link>
+                    <Link to=""><li className='mx-4'>WEEKLY SPECIALS</li></Link>
+                    <Link to=""><li className='mx-4'>CONTACTS</li></Link>
                 </div>
             </div>
         </div>
