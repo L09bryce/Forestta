@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import Headroom from 'react-headroom'
 import Hero from './Pages/Home/Hero';
 import About from './Pages/Home/About';
@@ -10,6 +10,7 @@ import Enquiries from './Pages/Home/Enquiries';
 import Footer from './Pages/Home/Footer';
 import Navbar from './Pages/Home/Navbar';
 import Menu from './Pages/Home/Menu';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
@@ -25,12 +26,9 @@ const App = () => {
         <Drinks />
         <Enquiries />
         <Footer />
-        <BrowserRouter>
         <Routes>
-          <Route path='Menu' element={<Menu />} />
+          <Route path='/menu' element={<Menu />} />
         </Routes>
-
-    </BrowserRouter> 
       
     </>
   )
